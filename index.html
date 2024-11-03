@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="img/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section id="left-side">
+        <div id="logo">
+            <img src="img/logo.png" id="img-logo" /> Dashboard
+        </div>
+        <div class="menu">
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-message"></i>
+                <i class="fa-solid fa-clock"></i>
+                <i class="fa-solid fa-note-sticky"></i>
+                <i class="fa-solid fa-people-group"></i>
+            </div>
+            <div>
+                <p>Home</p>
+                <p>Profile</p>
+                <p>Messages</p>
+                <p>History</p>
+                <p>Tasks</p>
+                <p>Communities</p>
+            </div>
+        </div>
+        <div class="menu menu2">
+            <div>
+                <i class="fa-solid fa-gear"></i>
+                <i class="fa-solid fa-ticket"></i>
+                <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <div>
+                <p>Settings</p>
+                <p>Support</p>
+                <p>Privacy</p>
+            </div>
+        </div>
+    </section>
+    <section id="right-side">
+        <header>
+            <section>
+                <div id="search-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" />
+                </div>
+                <div class="user-header">
+                    <i class="fa-regular fa-bell"></i>
+                    <img src="img/avatar.jpg" class="small-pp" />
+                    <p>Jane Smith</p>
+                </div>
+            </section>
+            <section>
+                <div class="user-header">
+                    <img src="img/avatar.jpg" id="pp" />
+                    <p id="greetings">Hi there, <br /><span>Jane Smith (@janes)</span></p>
+                </div>
+                <div id="btn-header">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section>
+                <h2>Your Projects</h2>
+                <div id="cards">
+                    <div class="card">
+                        <div>
+                            <h3>Super Cool Project</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim, dui ut
+                                efficitur
+                                dictum, tellus felis ornare nisi, at tincidunt eros augue in sem. Donec condimentum ante
+                                at
+                                neque vulputate, sit amet fringilla velit porta.</p>
+                        </div>
+                        <div class="card-icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-code-fork"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <h3>Less Cool Project</h3>
+                            <p>Nam ultricies hendrerit aliquam. Phasellus laoreet tincidunt consequat. Aliquam fermentum
+                                convallis velit, at rhoncus dolor condimentum vel. Aenean lobortis eleifend lectus,
+                                vitae
+                                aliquam sem rutrum sit amet.</p>
+                        </div>
+                        <div class="card-icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-code-fork"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <h3>Impossible App</h3>
+                            <p>Aliquam sed erat scelerisque, laoreet lacus in, malesuada sem. Pellentesque libero metus,
+                                facilisis et felis tempor, egestas rutrum odio. Nam diam diam, imperdiet non justo
+                                vulputate, egestas vulputate nunc. Interdum et malesuada fames ac ante ipsum primis in
+                                faucibus.</p>
+                        </div>
+                        <div class="card-icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-code-fork"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <h3>Easy Peasy App</h3>
+                            <p>Nulla felis ante, aliquam a felis id, semper iaculis nulla. Nunc venenatis vestibulum
+                                ligula.
+                                Suspendisse egestas commodo volutpat. Proin vel orci finibus diam facilisis facilisis
+                                sit
+                                amet sed diam. Nam scelerisque dui ante, tempor porta ex ornare vel.</p>
+                        </div>
+                        <div class="card-icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-code-fork"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <h3>Ad Blocker</h3>
+                            <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla lobortis metus ut
+                                ante
+                                porttitor, non semper ligula auctor. Praesent convallis lobortis lectus eget laoreet.
+                            </p>
+                        </div>
+                        <div class="card-icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-code-fork"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <h3>Money Maker</h3>
+                            <p>Donec at nibh non sapien congue accumsan et vitae elit. Morbi malesuada odio sit amet
+                                malesuada eleifend. Phasellus ut sodales tortor. Integer eget turpis ac ex pharetra
+                                vulputate eu vitae sapien. Proin id cursus quam.</p>
+                        </div>
+                        <div class="card-icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-code-fork"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div id="main-left">
+                <section>
+                    <h2>Announcements</h2>
+                    <div class="left-cards">
+                        <h3>Site Maintenance</h3>
+                        <p>Sed in massa sed purus aliquam facilisis a sit amet libero. Morbi aliquet quis sem a pretium.
+                            Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                        <hr />
+                        <h3>Community Share Day</h3>
+                        <p>Sed rutrum ante ac arcu blandit pellentesque. Sed a tellus ut orci sodales maximus posuere
+                            sit
+                            amet orci. Etiam at convallis dolor, vel posuere dolor.</p>
+                        <hr />
+                        <h3>Updated Privacy Policy</h3>
+                        <p>Nunc ut enim vel ante sollicitudin pretium. Mauris augue nulla, mollis sit amet metus eget,
+                            eleifend porttitor justo. Fusce suscipit convallis neque, vehicula hendrerit magna feugiat
+                            vehicula.</p>
+                    </div>
+                </section>
+                <section>
+                    <h2>Trending</h2>
+                    <div class="left-cards">
+                        <div>
+                            <img src="img/avatar.jpg" class="small-pp" />
+                            <p><span>@janes</span> <br />World Peace Builder</p>
+                        </div>
+                        <br />
+                        <div>
+                            <img src="img/avatar2.jpg" class="small-pp" />
+                            <p><span>@tegan</span> <br />Super Cool Project</p>
+                        </div>
+                        <br />
+                        <div>
+                            <img src="img/avatar3.jpg" class="small-pp" />
+                            <p><span>@alex</span> <br />Life Changing App</p>
+                        </div>
+                        <br />
+                        <div>
+                            <img src="img/avatar4.jpg" class="small-pp" />
+                            <p><span>@kendall</span> <br />No Traffic Maker</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </section>
+</body>
+
+</html>
